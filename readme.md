@@ -22,7 +22,7 @@ Para rodar este projeto, é necessário ter instalado em sua máquina o PHP e o 
 
 ```bash
 # Copie o reposítório no GitHub
-git clone placeholder
+git clone https://github.com/FelipeFerreiraRodrigues/arq_jedi
 
 # Abra o arquivo clonado
 cd arq_jedi
@@ -277,6 +277,10 @@ erDiagram
         varchar geografia "NOT NULL"
         text url_image "NOT NULL"
     }
+
+    usuarios ||--o{sith : "Visualiza ou/e Edita"
+    usuarios ||--o{planetas : "Visualiza ou/e Edita"
+    usuarios ||--o{sith : "Visualiza ou/e Edita"
 
 ```
 
