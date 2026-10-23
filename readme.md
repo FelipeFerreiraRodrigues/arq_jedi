@@ -280,7 +280,7 @@ erDiagram
 
     usuarios ||--o{sith : "Visualiza ou/e Edita"
     usuarios ||--o{planetas : "Visualiza ou/e Edita"
-    usuarios ||--o{sith : "Visualiza ou/e Edita"
+    usuarios ||--o{especies : "Visualiza ou/e Edita"
 
 ```
 
