@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivos Ordem Jedi</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section class="header-container">
+        <?php
+        //Aqui ficará o header da página
+        include __DIR__ . '/headerfooter/header.php';
+        ?>
+    </section>
+
+    <div class="page-body">
+        <section class="aside-container">
+            <?php
+            //Aqui ficará a barra de navegação lateral
+            include __DIR__ . '/headerfooter/aside.php'
+            ?>
+        </section>
+
+        <main class="text-container">  
+            <section class="card-content">
+                <!--Aqui será uma espécie de "Sobre nós"-->
+                <h2>Bem-Vindo aos Arquivos Jedi!</h2>
+                <img src="imagens/altarepub.jpeg" alt="Jedis Alta República" width="500px">
+                <p>Os Arquivos Jedis se tratam de uma vasta biblioteca de informações sobre tudo<br> conhecido na galáxia, possuindo registros de história, mapas, ciência, cultura e etc...
+                </p>
+            </section>
+        </main> 
+    </div>
+
+    <div>
+        <section class="footer-container">
+            <?php
+            //Aqui ficará o footer da pagina
+            include __DIR__ . '/headerfooter/footer.php';
+            ?>
+        </section>
+    </div>
+
+</body>
+</html>
