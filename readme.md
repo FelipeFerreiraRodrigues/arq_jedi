@@ -87,6 +87,14 @@ php -S localhost:8000
 
 Assim, o sistema rodará no navegador na URL "localhost:8000".
 
+### Passo Extra - Logins
+
+```
+User | Email - teste@gmail.com | Senha - 123 |
+Adm | Email - zyfovias@jediordem.com | Senha - 123456 |
+ 
+```
+
 ## 2 - Estrutura dos Diretórios
 
 ```bash
